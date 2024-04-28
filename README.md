@@ -1,5 +1,3 @@
-# code-challenge
-
 ## Install Enviroment
 Install Node version 20+(this project built with Node 20.1.1 ).
 
