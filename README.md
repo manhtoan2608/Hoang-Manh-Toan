@@ -1,6 +1,6 @@
 # code-challenge
 
-### Install Enviroment
+## Install Enviroment
 Install Node version 20+(this project built with Node 20.1.1 ).
 
 Create library for project with: npm install.
@@ -57,7 +57,7 @@ http://localhost:4000/posts/filterByContent with method GET.
 2. **Check permission**: 
 Before performing actions like adding points, check whether the user has the permission to perform that action. This can be checked based on the user's role (e.g., admin, user) or specific permissions (e.g., manage tasks).
 
-Send error messages: If a user attempts to perform an action they don't have permission for, return an appropriate error message, letting them know they cannot perform that action.
+3. **Send error messages**: If a user attempts to perform an action they don't have permission for, return an appropriate error message, letting them know they cannot perform that action.
 
 ### Client-side:
 1. Display corresponding functions: Ensure that the user interface only displays functions that the user has access to. This will ensure that users cannot access functions they are not allowed to use.
